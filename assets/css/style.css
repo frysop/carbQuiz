@@ -78,3 +78,8 @@ body {
     justify-content: center;
     overflow: hidden;
 }
+
+#body-resources {
+    background-color: none;
+    background: url("../images/resourceBackground.jpg") no-repeat center center/cover;
+}
