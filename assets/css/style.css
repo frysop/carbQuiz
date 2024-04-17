@@ -5,11 +5,16 @@ body {
     text-align: center;
 }
 
-.heading {
-    font-size: 2.5rem;
+#heading {
+   
+    font-size: 2rem;
     color: red;
     border-bottom: 2px solid whitesmoke;
     padding: 30px;
+}
+.heading h1 {
+    text-align: center;
+    text-decoration: none;
 }
 
 .container {
@@ -39,7 +44,25 @@ body {
     cursor:pointer;
     transition: all 0.3s;
     }
+.btn-home-game {
+    font-weight: 600;
+    background-color: white;
+    color: #333;
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
 .btn-home:hover {
+    color: whitesmoke;
+    background-color: #333;
+    color:yellow;
+}
+.btn-home-game:hover {
     color: whitesmoke;
     background-color: #333;
     color:yellow;
@@ -50,7 +73,7 @@ body {
 
 .quiz h2{
     font-size: 25px;
-    color: #333;
+    color:black;
     font-weight: 600;
 }
 .btn{
@@ -64,13 +87,29 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
-
 }
 
 .btn:hover {
     color: whitesmoke;
     background-color: #333;
     
+}
+#next-btn {
+    font-weight: 600;
+    background-color: white;
+    color: #333;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+#next-btn:hover {
+    color: whitesmoke;
+    background-color: #333;
 }
 .question-img {
     height:20rem;
@@ -79,7 +118,3 @@ body {
     overflow: hidden;
 }
 
-#body-resources {
-    background-color: none;
-    background: url("../images/resourceBackground.jpg") no-repeat center center/cover;
-}
