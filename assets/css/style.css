@@ -6,12 +6,13 @@ body {
 }
 
 #heading {
-   
+
     font-size: 2rem;
     color: red;
     border-bottom: 2px solid whitesmoke;
     padding: 30px;
 }
+
 .heading h1 {
     text-align: center;
     text-decoration: none;
@@ -27,7 +28,7 @@ body {
     border-radius: 10px;
 }
 
-    
+
 .btn-home {
     font-size: 1.8rem;
     font-weight: 800;
@@ -35,15 +36,16 @@ body {
     width: 85%;
     text-align: center;
     border: 0.1rem solid #333;
-    margin:20px auto;
+    margin: 20px auto;
     border-radius: 8px;
     text-decoration: none;
-    color:#333;
+    color: #333;
     background-color: whitesmoke;
     display: block;
-    cursor:pointer;
+    cursor: pointer;
     transition: all 0.3s;
-    }
+}
+
 .btn-home-game {
     font-weight: 600;
     background-color: white;
@@ -51,39 +53,43 @@ body {
     width: 25%;
     border: 1px solid black;
     padding: 10px;
-    margin:10px 0;
+    margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.3s;
 }
+
 .btn-home:hover {
     color: whitesmoke;
     background-color: #333;
-    color:yellow;
+    color: yellow;
 }
+
 .btn-home-game:hover {
     color: whitesmoke;
     background-color: #333;
-    color:yellow;
+    color: yellow;
 }
+
 .quiz {
     padding: 20px 0;
 }
 
-.quiz h2{
+.quiz h2 {
     font-size: 25px;
-    color:black;
+    color: black;
     font-weight: 600;
 }
-.btn{
+
+.btn {
     font-weight: 600;
     background-color: white;
     color: #333;
     width: 100%;
     border: 1px solid black;
     padding: 10px;
-    margin:10px 0;
+    margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
@@ -92,8 +98,9 @@ body {
 .btn:hover {
     color: whitesmoke;
     background-color: #333;
-    
+
 }
+
 #next-btn {
     font-weight: 600;
     background-color: white;
@@ -101,20 +108,26 @@ body {
     width: 50%;
     border: 1px solid black;
     padding: 10px;
-    margin:10px 0;
+    margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s;
-    
+    display: none;
+
 }
+
 #next-btn:hover {
     color: whitesmoke;
     background-color: #333;
 }
+
 .question-img {
-    height:20rem;
+    height: 20rem;
     display: flex;
     justify-content: center;
     overflow: hidden;
+}
+.scores {
+    display: inline-block;
+    padding: 25px;
 }
 
