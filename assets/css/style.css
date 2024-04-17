@@ -16,27 +16,65 @@ body {
     background-color: red;
     box-sizing: border-box;
     width: 85%;
-    height: 30vh;
-    max-height: 450px;
     max-width: 600px;
     margin: 100px auto;
-    padding: 5%;
+    padding: 30px;
     border-radius: 10px;
 }
 
+    
 .btn-home {
     font-size: 1.8rem;
     font-weight: 800;
-    padding: 20px auto;
+    padding: 20px 0;
     width: 85%;
     text-align: center;
     border: 0.1rem solid #333;
-    margin:30px auto;
+    margin:20px auto;
     border-radius: 8px;
     text-decoration: none;
     color:#333;
     background-color: whitesmoke;
     display: block;
+    cursor:pointer;
+    transition: all 0.3s;
+    }
+.btn-home:hover {
+    color: whitesmoke;
+    background-color: #333;
+    color:yellow;
+}
+.quiz {
+    padding: 20px 0;
+}
 
+.quiz h2{
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+}
+.btn{
+    font-weight: 600;
+    background-color: white;
+    color: #333;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
 
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: #333;
+    
+}
+.question-img {
+    height:20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
